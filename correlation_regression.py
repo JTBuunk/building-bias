@@ -76,5 +76,4 @@ for var in independent_vars:
         print(model.summary())
         plt.show()
     else:
-        plt.show()
         print("Not significant")

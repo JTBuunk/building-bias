@@ -40,8 +40,8 @@ This script generates barplots based on the Excel files created by `buildings_ac
 Performs correlation analysis and weighted linear regression.
 
 **Input:**
-- An Excel file on tile level.
-
+- Excel file on tile level from `buildings_accuracy.py`.
+  
 **Features:**
 - Conducts correlation analysis between sensitive variables and the false negative rate (or other metrics).
 - Performs weighted linear regression (default weight: building density, adjustable).
